@@ -41,6 +41,7 @@ namespace MaturitaGDI
             this.PictureBox.Size = new System.Drawing.Size(800, 450);
             this.PictureBox.TabIndex = 0;
             this.PictureBox.TabStop = false;
+            this.PictureBox.Paint += new System.Windows.Forms.PaintEventHandler(this.PictureBox_Paint);
             // 
             // MainForm
             // 
