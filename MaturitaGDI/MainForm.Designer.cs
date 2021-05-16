@@ -49,7 +49,7 @@ namespace MaturitaGDI
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.PictureBox);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "MainForm";
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox)).EndInit();
             this.ResumeLayout(false);
 
